@@ -1,7 +1,12 @@
 🔥 Firebase Authentication App
 Firebase Authentication kullanarak yapılmış modern Android uygulaması. Kullanıcı kayıt, giriş ve güvenli oturum yönetimi özellikleri içerir.
+
+
 <img width="378" height="821" alt="image" src="https://github.com/user-attachments/assets/5b0e2530-9e55-4b08-bad2-4553e7a2a70f" />
 <img width="374" height="830" alt="image" src="https://github.com/user-attachments/assets/de1b29ac-e038-4bef-8c75-24cb1907f45e" />
+
+
+
 ✨ Özellikler
 
 🔐 Firebase Authentication ile güvenli kullanıcı yönetimi
