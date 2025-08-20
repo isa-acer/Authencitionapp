@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "783865967111",
+    "project_id": "fotografpaylasimi-d91bd",
+    "storage_bucket": "fotografpaylasimi-d91bd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:783865967111:android:93dc23320062043df4f0a2",
+        "android_client_info": {
+          "package_name": "com.isaacer.acersosyalmedya"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBooUYYcGQcK7riniy7_5WnPwlCGNRPuB0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:783865967111:android:6dab1a6afaca4095f4f0a2",
+        "android_client_info": {
+          "package_name": "com.isaacer.authencitionapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBooUYYcGQcK7riniy7_5WnPwlCGNRPuB0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:783865967111:android:e991e09434b756eaf4f0a2",
+        "android_client_info": {
+          "package_name": "com.isaacer.fotografpaylasma"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBooUYYcGQcK7riniy7_5WnPwlCGNRPuB0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arka_plan"
+    tools:context=".GirisFragment">
+
+    <EditText
+        android:id="@+id/emailigir"
+        android:layout_width="311dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="136dp"
+        android:layout_marginEnd="64dp"
+        android:drawableStart="@drawable/outline_attach_email_24"
+        android:paddingTop="8dp"
+        android:hint="Email:"
+        android:textColorHint="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/passwordugir"
+        android:layout_width="290dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="92dp"
+        android:drawableStart="@drawable/outline_battery_android_frame_shield_24"
+        android:hint="Password:"
+        android:textColorHint="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/emailigir"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/emailigir"
+        app:layout_constraintTop_toBottomOf="@+id/emailigir" />
+
+    <Button
+        android:id="@+id/LOGİNBUTONU"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:background="@color/black"
+        android:backgroundTint="@color/black"
+        android:text="Login"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/passwordugir"
+        app:layout_constraintStart_toStartOf="@+id/passwordugir"
+        app:layout_constraintTop_toBottomOf="@+id/passwordugir" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="366dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="170dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LOGİNBUTONU">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="0.75"
+            android:text="Do you have not an account?"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textViewRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Register"
+
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
